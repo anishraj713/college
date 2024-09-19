@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 50px;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+input,
+select,
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
+#hideParse {
+  visibility: hidden;
+}

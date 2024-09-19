@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script>
+      function sum() {
+        let a, b, c;
+        a = parseFloat(document.getElementById("first").value);
+        b = parseFloat(document.getElementById("second").value);
+        c = a + b;
+        d = a - b;
+        e = a * b;
+        f = a / b;
+        document.getElementById("add").value = c;
+        document.getElementById("sub").value = d;
+        document.getElementById("mul").value = e;
+        document.getElementById("div").value = f;
+      }
+      function clean() {
+        location.reload();
+      }
+    </script>
+  </head>
+  <body>
+    <input type="text" id="first" />
+    <input type="text" id="second" />
+    <button onclick="sum()">Sum</button>
+    <br />
+    <br />
+    Addition: <input type="text" id="add" />
+    <br />
+    <br />
+    Subtraction: <input type="text" id="sub" />
+    <br />
+    <br />
+    Multiplication: <input type="text" id="mul" />
+    <br />
+    <br />
+    Division: <input type="text" id="div" />
+    <br />
+    <br />
+    <button onclick="clean()">Clear</button>
+  </body>
+</html>

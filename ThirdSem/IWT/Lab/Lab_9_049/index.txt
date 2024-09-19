@@ -1,0 +1,10 @@
+<!-- 
+1.	Write a Javascript program to find addition, subtraction, multiplication and division of two numbers. Input and output should be given in textboxes.
+2.	Write a Javascript program to find the simple interest. Input and output should be given in textboxes.
+3.	Write a Javascript program to find the sum of n numbers. Input and output should be given in textboxes.
+4.	Write a Javascript program to display the multiplication table of a given number. Input should be taken through form and output should be displayed inside <table> element.
+5.	Write a Javascript program to display the numbers which are divisible by 12 in between 200 and 400. 
+6.	Write a Javascript program to find the roots of a quadratic equation. Input and output should be given in textboxes. 
+7.	Write a Javascript program to find the given number is armstrong or not. Input should be taken through form and output should be displayed inside <p> element.
+-->
+    

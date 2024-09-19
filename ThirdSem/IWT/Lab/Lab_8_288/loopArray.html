@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Loop Array</title>
+  </head>
+  <body>
+    <h2>Loop Array</h2>
+    <p id="demo"></p>
+    <script>
+      let cars = [
+        "Jeep",
+        "BMW",
+        "Volvo",
+        "Mahindra",
+        "Honda",
+        "Toyota",
+        "Audi",
+      ];
+      let text = "";
+      for (let index = 0; index < cars.length; index++) {
+        text += cars[index] + "\n";
+      }
+      document.getElementById("demo").innerHTML = text;
+    </script>
+  </body>
+</html>
