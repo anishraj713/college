@@ -1,0 +1,12 @@
+* {
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+}
+#nav
+{
+height: 100px;
+width: auto;
+background-color: rgba(154, 205, 50, 0.56);
+justify-content: space-around;
+}
